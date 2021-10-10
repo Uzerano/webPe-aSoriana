@@ -11,7 +11,6 @@
   --azul: #5768fa;
   --grisOscuro: #888686;
   --azulClaro: #3fadf7;
-
 }
 
 html {
@@ -80,15 +79,11 @@ h3 {
   color: var(--negro);
 }
 
-.video {
-  width: 95%;
-  margin: 0 auto;
-}
-
-.video video {
+header video {
   width: 100%;
   height: auto;
 }
+
 
 /*HEADER*/
 
@@ -401,12 +396,10 @@ header .navegacion ul li {
 .contenido__contacto .texto {
   width: 90%;
   margin: 0 auto;
-  font-family: 'Open sans', sans-serif;
-  letter-spacing: .2rem;
+  font-family: "Open sans", sans-serif;
+  letter-spacing: 0.2rem;
   line-height: 3rem;
 }
-
-
 
 .formulario {
   width: 90%;
@@ -423,7 +416,7 @@ header .navegacion ul li {
 .etiqueta {
   flex: 0 0 9rem;
   padding-right: 2rem;
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
   color: var(--grisClaro);
 }
 
@@ -432,8 +425,8 @@ header .navegacion ul li {
 .campo__mensaje {
   flex: 1;
   border: none;
-  border-bottom: .5px solid var(--azulClaro);
-  font-family: 'Open sans', sans-serif;
+  border-bottom: 0.5px solid var(--azulClaro);
+  font-family: "Open sans", sans-serif;
   margin-top: 2rem;
 }
 
@@ -457,8 +450,6 @@ header .navegacion ul li {
   border: none;
   cursor: pointer;
 }
-
-
 
 @media (min-width: 768px) {
   .campo__enviar {
@@ -492,7 +483,6 @@ header .navegacion ul li {
 .fotos {
   margin: 5rem 0;
 }
-
 
 .imagen1,
 .imagen2,
