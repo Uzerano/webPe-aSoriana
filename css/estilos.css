@@ -49,6 +49,8 @@ li {
 
 img {
   width: 100%;
+
+  height: auto;
 }
 
 .contenedor {
@@ -65,7 +67,7 @@ h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   color: var(--colorPrincipal);
 }
 
