@@ -205,6 +205,7 @@ header .navegacion ul li {
   margin-left: 2rem;
 }
 
+
 .facebook {
   color: var(--azul);
 }
@@ -277,6 +278,10 @@ header .navegacion ul li {
   color: var(--blanco);
 }
 
+.footer .direccion span {
+  color: var(--blanco);
+}
+
 @media screen and (min-width: 768px) {
   .footer {
     flex-direction: row;
@@ -302,6 +307,8 @@ header .navegacion ul li {
 }
 
 /* ESPECIALIDADES */
+
+
 
 @media screen and (min-width: 480px) {
   .padre {
